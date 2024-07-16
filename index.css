@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 30svh;
+    background-color: black;
+    color: white;
+    margin-top: 10%;
+    border-radius: 20px;
+}
+.container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    font-size: 7rem;
+    border-radius: 30px;
+    color: black;
+}
+button {
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+}
+.btn {
+    margin: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
